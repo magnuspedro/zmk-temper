@@ -125,7 +125,7 @@
             display-name = "Linux";
             bindings = <
 &kp Q            &kp W            &kp E         &kp R              &kp T        &kp Y         &kp U              &kp I                &kp O            &kp P
-&rpi LEFT_GUI A  &rpi LEFT_ALT S  &rpi LCTRL D  &rpi LEFT_SHIFT F  &kp G        &kp H         &rpi LEFT_SHIFT J  &rpi LEFT_CONTROL K  &rpi LEFT_ALT L  &rpi LEFT_GUI SEMI
+&rpi LCTRL A     &rpi LEFT_ALT S  &rpi LEFT_GUI D  &rpi LEFT_SHIFT F  &kp G        &kp H         &rpi LEFT_SHIFT J  &rpi LEFT_GUI K  &rpi LEFT_ALT L  &rpi LEFT_CONTROL SEMI
 &kp Z            &kp X            &kp C         &kp V              &kp B        &kp N         &kp M              &kp COMMA            &kp DOT          &kp FSLH
                                   &lt 3 ESC     &lt 1 SPACE        &lt 2 TAB    &lt 5 RETURN  &lt 4 BACKSPACE    &lt 6 DELETE
             >;
