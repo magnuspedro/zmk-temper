@@ -69,6 +69,7 @@ thumb5 = DEL  / hold → layer 6 (F-keys)
 ### Number layer right-side additions (cols 5–9)
 
 ```
+row 0, col 8 → "  (DQT)
 row 0, col 9 → ~  (TILDE)
 row 1, col 8 → '  (SQT)
 row 1, col 9 → ^  (CARET)
