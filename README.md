@@ -40,10 +40,10 @@ stagger).
 Hold-tap on home row (`rpi`, tap-preferred, 200ms term, 125ms prior-idle):
 
 ```
-A = TAP A / HOLD LCTRL      J = TAP J / HOLD LSHIFT
-S = TAP S / HOLD LALT       K = TAP K / HOLD LGUI
-D = TAP D / HOLD LGUI       L = TAP L / HOLD LALT
-F = TAP F / HOLD LSHIFT     ; = TAP ; / HOLD LCTRL
+A = TAP A / HOLD LGUI       J = TAP J / HOLD LSHIFT
+S = TAP S / HOLD LALT       K = TAP K / HOLD LCTRL
+D = TAP D / HOLD LCTRL      L = TAP L / HOLD LALT
+F = TAP F / HOLD LSHIFT     ; = TAP ; / HOLD LGUI
 ```
 
 Thumb layer-taps (`&lt`):
