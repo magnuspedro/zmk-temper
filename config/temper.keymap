@@ -16,6 +16,10 @@
 &lt { quick-tap-ms = <200>; };
 
 / {
+    chosen {
+        /delete-property/ zmk,matrix_transform;
+    };
+
     physical_layout0: physical_layout_0 {
         compatible = "zmk,physical-layout";
         display-name = "Temper";
