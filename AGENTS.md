@@ -66,14 +66,21 @@ thumb5 = DEL  / hold → layer 6 (F-keys)
 | 6     | F-keys     | hold DEL              |
 | 7     | Gaming     | `&to 7` on Mouse & BT |
 
-### Number layer right-side additions (cols 5–9)
+### Sound layer right-side additions (cols 5–9)
 
 ```
 row 0, col 8 → "  (DQT)
 row 0, col 9 → ~  (TILDE)
+row 1, col 6 → VOL+  (C_VOLUME_UP)
+row 1, col 7 → NEXT  (C_NEXT)
 row 1, col 8 → '  (SQT)
 row 1, col 9 → ^  (CARET)
+row 2, col 6 → VOL-  (C_VOLUME_DOWN)
+row 2, col 7 → PREV  (C_PREVIOUS)
 row 2, col 9 → `  (GRAVE)
+thumb 3      → STOP  (C_STOP)
+thumb 4      → PLAY  (C_PLAY_PAUSE)
+thumb 5      → MUTE  (C_MUTE)
 ```
 
 Everything else on the right half of Number/Symbol/F-key/Arrow layers is
