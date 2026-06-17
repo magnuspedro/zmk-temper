@@ -27,42 +27,42 @@
         kscan = <&kscan0>;
         keys
             //                    w    h     x     y    r   rx   ry
-            = <&key_physical_attrs 100 100    0  100   0    0    0>
-            , <&key_physical_attrs 100 100  100   33   0    0    0>
+            = <&key_physical_attrs 100 100    0   26   0    0    0>
+            , <&key_physical_attrs 100 100  100    8   0    0    0>
             , <&key_physical_attrs 100 100  200    0   0    0    0>
-            , <&key_physical_attrs 100 100  300   37   0    0    0>
-            , <&key_physical_attrs 100 100  400   50   0    0    0>
-            , <&key_physical_attrs 100 100  722   50   0    0    0>
-            , <&key_physical_attrs 100 100  822   37   0    0    0>
-            , <&key_physical_attrs 100 100  922    0   0    0    0>
-            , <&key_physical_attrs 100 100 1022   33   0    0    0>
-            , <&key_physical_attrs 100 100 1122  100   0    0    0>
-            , <&key_physical_attrs 100 100    0  294   0    0    0>
-            , <&key_physical_attrs 100 100  100  228   0    0    0>
-            , <&key_physical_attrs 100 100  200  194   0    0    0>
-            , <&key_physical_attrs 100 100  300  231   0    0    0>
-            , <&key_physical_attrs 100 100  400  244   0    0    0>
-            , <&key_physical_attrs 100 100  722  244   0    0    0>
-            , <&key_physical_attrs 100 100  822  231   0    0    0>
-            , <&key_physical_attrs 100 100  922  194   0    0    0>
-            , <&key_physical_attrs 100 100 1022  228   0    0    0>
-            , <&key_physical_attrs 100 100 1122  294   0    0    0>
-            , <&key_physical_attrs 100 100    0  388   0    0    0>
-            , <&key_physical_attrs 100 100  100  322   0    0    0>
-            , <&key_physical_attrs 100 100  200  288   0    0    0>
-            , <&key_physical_attrs 100 100  300  325   0    0    0>
-            , <&key_physical_attrs 100 100  400  338   0    0    0>
-            , <&key_physical_attrs 100 100  722  338   0    0    0>
-            , <&key_physical_attrs 100 100  822  325   0    0    0>
-            , <&key_physical_attrs 100 100  922  288   0    0    0>
-            , <&key_physical_attrs 100 100 1022  322   0    0    0>
-            , <&key_physical_attrs 100 100 1122  388   0    0    0>
-            , <&key_physical_attrs 100 100  267  437   0    0    0>
-            , <&key_physical_attrs 100 100  379  451   0    0    0>
-            , <&key_physical_attrs 100 100  493  469   0    0    0>
-            , <&key_physical_attrs 100 100  629  469   0    0    0>
-            , <&key_physical_attrs 100 100  744  451   0    0    0>
-            , <&key_physical_attrs 100 100  855  437   0    0    0>
+            , <&key_physical_attrs 100 100  300    8   0    0    0>
+            , <&key_physical_attrs 100 100  400   18   0    0    0>
+            , <&key_physical_attrs 100 100  600   18   0    0    0>
+            , <&key_physical_attrs 100 100  700    8   0    0    0>
+            , <&key_physical_attrs 100 100  800    0   0    0    0>
+            , <&key_physical_attrs 100 100  900    8   0    0    0>
+            , <&key_physical_attrs 100 100 1000   26   0    0    0>
+            , <&key_physical_attrs 100 100    0  126   0    0    0>
+            , <&key_physical_attrs 100 100  100  108   0    0    0>
+            , <&key_physical_attrs 100 100  200  100   0    0    0>
+            , <&key_physical_attrs 100 100  300  108   0    0    0>
+            , <&key_physical_attrs 100 100  400  118   0    0    0>
+            , <&key_physical_attrs 100 100  600  118   0    0    0>
+            , <&key_physical_attrs 100 100  700  108   0    0    0>
+            , <&key_physical_attrs 100 100  800  100   0    0    0>
+            , <&key_physical_attrs 100 100  900  108   0    0    0>
+            , <&key_physical_attrs 100 100 1000  126   0    0    0>
+            , <&key_physical_attrs 100 100    0  226   0    0    0>
+            , <&key_physical_attrs 100 100  100  208   0    0    0>
+            , <&key_physical_attrs 100 100  200  200   0    0    0>
+            , <&key_physical_attrs 100 100  300  208   0    0    0>
+            , <&key_physical_attrs 100 100  400  218   0    0    0>
+            , <&key_physical_attrs 100 100  600  218   0    0    0>
+            , <&key_physical_attrs 100 100  700  208   0    0    0>
+            , <&key_physical_attrs 100 100  800  200   0    0    0>
+            , <&key_physical_attrs 100 100  900  208   0    0    0>
+            , <&key_physical_attrs 100 100 1000  226   0    0    0>
+            , <&key_physical_attrs 100 100  210  335   0    0    0>
+            , <&key_physical_attrs 100 100  320  355   0    0    0>
+            , <&key_physical_attrs 100 100  430  375   0    0    0>
+            , <&key_physical_attrs 100 100  570  375   0    0    0>
+            , <&key_physical_attrs 100 100  680  355   0    0    0>
+            , <&key_physical_attrs 100 100  790  335   0    0    0>
             ;
     };
 
@@ -125,7 +125,7 @@
             display-name = "Linux";
             bindings = <
 &kp Q            &kp W            &kp E         &kp R              &kp T        &kp Y         &kp U              &kp I                &kp O            &kp P
-&rpi LEFT_GUI A  &rpi LEFT_ALT S  &rpi LCTRL D  &rpi LEFT_SHIFT F  &kp G        &kp H         &rpi LEFT_SHIFT J  &rpi LEFT_CONTROL K  &rpi LEFT_ALT L  &rpi LEFT_GUI SEMI
+&rpi LCTRL A     &rpi LEFT_ALT S  &rpi LEFT_GUI D  &rpi LEFT_SHIFT F  &kp G        &kp H         &rpi LEFT_SHIFT J  &rpi LEFT_GUI K  &rpi LEFT_ALT L  &rpi LEFT_CONTROL SEMI
 &kp Z            &kp X            &kp C         &kp V              &kp B        &kp N         &kp M              &kp COMMA            &kp DOT          &kp FSLH
                                   &lt 3 ESC     &lt 1 SPACE        &lt 2 TAB    &lt 5 RETURN  &lt 4 BACKSPACE    &lt 6 DELETE
             >;
