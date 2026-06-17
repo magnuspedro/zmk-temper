@@ -151,7 +151,7 @@
             display-name = "Sound";
             bindings = <
 &trans  &trans  &trans  &trans  &trans    &trans  &trans             &trans          &kp DQT      &kp TILDE
-&trans  &trans  &trans  &trans  &trans    &trans  &kp C_VOLUME_UP    &kp C_NEXT      &kp SQT      &kp CARET
+&trans  &trans  &trans  &trans  &trans    &trans  &kp C_VOLUME_UP    &kp C_NEXT      &trans  &kp SQT
 &trans  &trans  &trans  &trans  &trans    &trans  &kp C_VOLUME_DOWN  &kp C_PREVIOUS  &trans       &kp GRAVE
                 &trans  &trans  &trans    &kp C_STOP   &kp C_PLAY_PAUSE   &kp C_MUTE
             >;
