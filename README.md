@@ -6,8 +6,9 @@ ZMK firmware for the Temper split keyboard, ported from
 - **5 columns per side** (Corne: 6). Outer column dropped on both sides.
 - **No OLED**. `CONFIG_ZMK_DISPLAY` disabled.
 
-Built on `nice_nano_v2`. Studio enabled via `studio-rpc-usb-uart` snippet on the
-left half.
+Built on `nice_nano_v2`. ZMK Studio enabled — physical layout authored in
+`config/temper.keymap` from PCB drill data (choc v1, 18×17mm pitch, column
+stagger).
 
 ## Layers
 
@@ -190,4 +191,3 @@ CI builds both halves on push (see `.github/workflows/build.yml`):
 3. Double-tap reset on each half → mounts as USB drive → drag the matching
    `.uf2` over.
 4. Pair via Bluetooth: hold left `TAB` (Mouse&BT layer) + tap `&bt BT_SEL 0..4`.
-5. Studio: USB cable into the left half; `studio-rpc-usb-uart` snippet bridges.

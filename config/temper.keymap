@@ -8,6 +8,7 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
+#include <physical_layouts.dtsi>
 
 #define ZMK_POINTING_DEFAULT_MOVE_VAL 1500
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 20
@@ -15,6 +16,52 @@
 &lt { quick-tap-ms = <200>; };
 
 / {
+    physical_layout0: physical_layout_0 {
+        compatible = "zmk,physical-layout";
+        display-name = "Temper";
+        transform = <&default_transform>;
+        kscan = <&kscan0>;
+        keys
+            //                    w    h     x     y    r   rx   ry
+            = <&key_physical_attrs 1800 1700     0  1800   0    0    0>
+            , <&key_physical_attrs 1800 1700  1800   600   0    0    0>
+            , <&key_physical_attrs 1800 1700  3600     0   0    0    0>
+            , <&key_physical_attrs 1800 1700  5400   662   0    0    0>
+            , <&key_physical_attrs 1800 1700  7200   900   0    0    0>
+            , <&key_physical_attrs 1800 1700 11000   900   0    0    0>
+            , <&key_physical_attrs 1800 1700 12800   662   0    0    0>
+            , <&key_physical_attrs 1800 1700 14600     0   0    0    0>
+            , <&key_physical_attrs 1800 1700 16400   600   0    0    0>
+            , <&key_physical_attrs 1800 1700 18200  1800   0    0    0>
+            , <&key_physical_attrs 1800 1700     0  3500   0    0    0>
+            , <&key_physical_attrs 1800 1700  1800  2300   0    0    0>
+            , <&key_physical_attrs 1800 1700  3600  1700   0    0    0>
+            , <&key_physical_attrs 1800 1700  5400  2362   0    0    0>
+            , <&key_physical_attrs 1800 1700  7200  2600   0    0    0>
+            , <&key_physical_attrs 1800 1700 11000  2600   0    0    0>
+            , <&key_physical_attrs 1800 1700 12800  2362   0    0    0>
+            , <&key_physical_attrs 1800 1700 14600  1700   0    0    0>
+            , <&key_physical_attrs 1800 1700 16400  2300   0    0    0>
+            , <&key_physical_attrs 1800 1700 18200  3500   0    0    0>
+            , <&key_physical_attrs 1800 1700     0  5200   0    0    0>
+            , <&key_physical_attrs 1800 1700  1800  4000   0    0    0>
+            , <&key_physical_attrs 1800 1700  3600  3400   0    0    0>
+            , <&key_physical_attrs 1800 1700  5400  4062   0    0    0>
+            , <&key_physical_attrs 1800 1700  7200  4300   0    0    0>
+            , <&key_physical_attrs 1800 1700 11000  4300   0    0    0>
+            , <&key_physical_attrs 1800 1700 12800  4062   0    0    0>
+            , <&key_physical_attrs 1800 1700 14600  3400   0    0    0>
+            , <&key_physical_attrs 1800 1700 16400  4000   0    0    0>
+            , <&key_physical_attrs 1800 1700 18200  5200   0    0    0>
+            , <&key_physical_attrs 1800 1700  4810  6059   0    0    0>
+            , <&key_physical_attrs 1800 1700  6815  6318   0    0    0>
+            , <&key_physical_attrs 1800 1700  8875  6639   0    0    0>
+            , <&key_physical_attrs 1800 1700  9325  6639   0    0    0>
+            , <&key_physical_attrs 1800 1700 11385  6318   0    0    0>
+            , <&key_physical_attrs 1800 1700 13390  6059   0    0    0>
+            ;
+    };
+
     macros {
         next_wp: next_wp {
             compatible = "zmk,behavior-macro";
