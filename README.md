@@ -85,7 +85,7 @@ layer (row 1, col 9).
             ╰─────┴─────┴─────╯   ╰─────┴─────┴─────╯
 ```
 
-`GAME` = `&to 7`. `BCLR` = `&bt BT_CLR`. ZMK Studio is enabled on the left half only (via `cmake-args` in `build.yaml`).
+`GAME` = `&to 7`. `BCLR` = `&bt BT_CLR`. ZMK Studio is enabled on the left half only (via `cmake-args` in `build.yaml`). The top-left key (row 0, col 0) is `&studio_unlock` on the left build — hold left `TAB` then press it to unlock ZMK Studio for live keymap edits. On the right build it compiles as `&trans` (guarded by `#ifdef CONFIG_ZMK_STUDIO`).
 
 ### Sound
 
