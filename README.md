@@ -85,7 +85,7 @@ layer (row 1, col 9).
             ╰─────┴─────┴─────╯   ╰─────┴─────┴─────╯
 ```
 
-`STU` = `&studio_unlock` (left half only, guarded by `#ifdef CONFIG_ZMK_STUDIO`). `GAME` = `&to 7`. `BCLR` = `&bt BT_CLR`. Hold left `TAB` then `STU` to unlock ZMK Studio for live keymap edits.
+`STU` = `&studio_unlock` (Studio itself is enabled on the left half only, via `build.yaml`). `GAME` = `&to 7`. `BCLR` = `&bt BT_CLR`. Hold left `TAB` then `STU` to unlock ZMK Studio for live keymap edits.
 
 ### Sound
 
